@@ -8,7 +8,7 @@ const List = ({people}) => {
           <img src={person.image} alt={person.name}/>
           <div>
             <h3>{person.name}</h3>
-            <p>{person.age} years</p>
+            <p>{person.price} $</p>
           </div>
         </article>
       })}

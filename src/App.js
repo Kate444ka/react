@@ -7,9 +7,9 @@ function App() {
     return (
         <main>
             <section className='container'>
-                <h3>{people.length} день народженів сьогодні</h3>
+                <h3>{people.length} товарів у вашому кошику</h3>
                 <List people={people} />
-                <button onClick={() => setPeople([])}>Видалити всіх</button>
+                <button onClick={() => setPeople([])}>Видалити все</button>
             </section>
         </main>
     )
